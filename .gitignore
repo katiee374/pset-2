@@ -1,2 +1,4 @@
 package.bluej
 .DS_Store
+*.class
+*.ctxt
