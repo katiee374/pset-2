@@ -1,4 +1,5 @@
 # PSET 2: Object-Oriented Programming, Classes and Objects
+  //TODO add student instructions to begin assignment (i.e. clone to their machine)
 ## Part 1: Modeling Wellesley's CS111 Class
   In this first task of the assignment, you will employ object-oriented programming principles to model a section of CS 111. You will create student and professor classes to represent students and professors, and provide methods that will allow you to get statistics about the class.
 Goals:
