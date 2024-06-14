@@ -31,5 +31,9 @@ public class Dice
         rand=new Random();
         //fill in the rest of the constructor & its arguments
     }
+    
+    public int roll() {
+        return rand.nextInt(6)+1;
+    }
     //write getters, setters, and roll() method
 }

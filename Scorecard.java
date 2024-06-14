@@ -12,10 +12,18 @@ import java.util.Hashtable;
  */
 public class Scorecard
 {
-    // instance variables - replace the example below with your own
     private int upperScore;
     private int lowerScore;
     private Hashtable<String, Integer> scores;
+    private String playerName;
+    
+    public Scorecard(String name) {
+        playerName = name;
+    }
+    
+    public String getName() {
+        return playerName;
+    }
 
     public void printScoreCard() {
         System.out.println("Aces: "+scores.get("aces"));
@@ -37,15 +45,7 @@ public class Scorecard
         System.out.println("Grand Total: "+(upperScore+lowerScore));
     }
     
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public void updateScore(String s, int i){
+        scores.replace(s, 0, i);
     }
 }
