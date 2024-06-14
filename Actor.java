@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Yahtzee here.
+ * Write a description of class Actor here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Yahtzee
+public class Actor
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Yahtzee
+     * Constructor for objects of class Actor
      */
-    public Yahtzee()
+    public Actor()
     {
         // initialise instance variables
         x = 0;
