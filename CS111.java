@@ -25,8 +25,8 @@
  * 
  * Write a description of class CS111 here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author CS200 Instructors
+ * @version 6.17.2024
  */
 public class CS111
 {
