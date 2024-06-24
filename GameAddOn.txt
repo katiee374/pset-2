@@ -1,0 +1,5 @@
+Instructions:
+Add the following to your Game.java file:
+ * An ArrayList directions containing the Strings "North", "South", "East", 
+   "West"
+ * An ArrayList of Room objects named Blueprint
