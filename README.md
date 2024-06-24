@@ -17,10 +17,12 @@ It is recommended that you move through the assignment in the following order:
 2. The Student class.
 3. The CS111 class.
 
-## Part 2: Designing Your Own Adventure Game
-In the second half of this assignment, you will create your own text-based Adventure game. Later in the class, you will learn to use graphical user interfaces (GUI) to create more visually appealing programs. For now, we'd like you to unleash your creativity in a text-based way. You can set the theme of your adventure game, though we've provided a few suggestions, and add whatever additional functionality you'd like. Have fun!
+## Part 2: Charting Your Adventure Game
+In this task, you will develop the Room class which will allow you to create 
+room objects. Copy and complete the file Room.java.
 
 Goals:
-* Create an interesting program that you can run and interact with.
-* Practice OOP principles through implementing class methods and constructors.
-* Understand the breakdown of complex programs into manageable parts as individual  classes.
+ * Program with creativity through developing the tehme of your own text-based 
+  adventure game.
+ * Use object-oriented programming to further a larger goal of a program.
+ * Have some fun implemeenting a game!
