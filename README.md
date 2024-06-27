@@ -18,11 +18,12 @@ It is recommended that you move through the assignment in the following order:
 3. The CS111 class.
 
 ## Part 2: Charting Your Adventure Game
-In this task, you will develop the Room class which will allow you to create 
-room objects. Copy and complete the file Room.java.
+In this task, you will develop the Room and Actor classes which will allow 
+you to create room and player objects. Copy and complete the files Room.java
+and Actor.java.
 
 Goals:
- * Program with creativity through developing the tehme of your own text-based 
+ * Program with creativity through developing the theme of your own text-based 
   adventure game.
- * Use object-oriented programming to further a larger goal of a program.
- * Have some fun implemeenting a game!
+ * Use object-oriented programming to further a program with a larger goal.
+ * Have some fun implementing a game!

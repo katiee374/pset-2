@@ -13,6 +13,13 @@ public class Actor
      * Create instance variables for the name, description, and location (of 
      * type Room). Add any other instance variables you find relevant.
      */
+    /**
+     * Constructor for objects of class Actor
+     */
+    public Actor()
+    {
+        //initialize all instance variables
+    }
     /*
      * Write getter and setter methods, and a toString() method that only uses 
      * the name and description.
