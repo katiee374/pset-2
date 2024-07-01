@@ -1,7 +1,8 @@
 
 /**
  * Instructions: Create the following class to represent a treasure or object 
- * in your game. Give it a name, description, and value.
+ * in your game. Give it a name, description, and value. Additionally, give it
+ * two boolean values that represent whether or not it is takeable or movable.
  * 
  * Finally, write a description of the class and update the author and version tags.
  * 
@@ -13,7 +14,8 @@
 public class Treasure
 {
     /*
-     * TODO: Write instance variables, including name, description, and value.
+     * TODO: Write instance variables, including name, description, value, takeable, 
+     * and moveable.
      */
 
     /*
@@ -27,5 +29,5 @@ public class Treasure
     /*
      * TODO: Write a toString() method.
      */
-    
+
 }
