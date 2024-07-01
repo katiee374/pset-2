@@ -10,7 +10,7 @@
  * midterm is worth 25%, and the project is worth 25%.
  * 
  * Finally, add Javadoc to your methods, a description of the class, and
- * author and version tags. You may delete these instructions if you wish.
+ * author and version tags.
  * 
  * Write a description of class Student here.
  *
@@ -19,14 +19,19 @@
  */
 public class Student
 {
-    //instance variables here
+    /*
+     * TODO: Add instance variables.
+     */
     
     /**
      * Constructor for objects of type Student
      */
     public Student() {
-        //fill in arguments & method body
+        /*
+         * TODO: Initialize instance variables.
+         */
     }
-    
-    //add getters, setters, and getClassGrade() method
+    /*
+     * TODO: Add getters, setters, toString, and getClassGrade() method.
+     */
 }

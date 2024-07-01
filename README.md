@@ -18,12 +18,55 @@ It is recommended that you move through the assignment in the following order:
 3. The CS111 class.
 
 ## Part 2: Charting Your Adventure Game
-In this task, you will develop the Room and Actor classes which will allow 
-you to create room and player objects. Copy and complete the files Room.java
-and Actor.java.
+In this task, we'd like you to draw a map of your adventure game. According to 
+whatever theme you've chosen, chart a map (on paper!) that contains 4-6 locations
+(rooms, landmarks, etc.), and paths between them. Include a compass rose (N-S-E-W)
+to give your map some direction. It doesn't need to be artistic, but you 
+will repeatedly refer back to this map throughout the semester. You're welcome 
+to change it later in the semester as well. Add lists of objects (treasure chests, 
+keys, snakes, etc.) that will be in each place.
+When you're finished, take a picture of your map and upload a .png or .jpeg file to 
+this repository.
+
+## Part 3: Create an Object-Oriented Game
+In this task, you will start developing your game using an object-oriented approach.
+First, you should consider your Game file to be now a class declaration. Turn the 
+"main" method into the Game class's constructor. Then, add the following 
+instance variables:
+ * An ArrayList directions containing the Strings "North", "South", "East", 
+   "West"
+ * An ArrayList of Room objects named Blueprint
+ * An Actor object named Player
+
+Then, write the method moveTo(Actor a, int direction) to do the following:
+ * Initialize int exit.
+ * Initialize Room room to a.getLocation().
+ * Check if direction is between zero and 3 (representing the values N, S, E, W
+   respectively)
+     * If so: Set Exit to be room.getN/S/E/W() depending on the value of 
+       direction
+ * If, at the end of these checks, exit is NOT -1, set the actor location to 
+   exit, and print where the actor is moving to (by retrieving the room from 
+   Blueprint).
+ * Else, print "No exit"
+
+Next, update the parsing of user commands:
+ * In Game.java, add the commands n, s, e, w to the ArrayList of commands.
+ * Move the ArrayLists of commands and objects to be instance variables of 
+   the Game class.
+ * Write the processVerb(String verb): check that the verb is a known command. 
+   If not, print "unknown command."
+
+Then, create a new file, called AdventureGame, and write a main method there. 
+This is the class that you will run to play the game. For now, write one line of 
+code in the file that initializes a Game object. Don't forget to add Javadoc. 
+Upload copies of Game.java and AdventureGame.java to this repository.
+Next, copy the Room, Actor, and Treasure classes into your project folder. Follow 
+the instructions in the files. When you're done, copy and paste the code into the 
+files in this repository.
 
 Goals:
- * Program with creativity through developing the theme of your own text-based 
+ * Program with creativity by developing the theme of your own text-based 
   adventure game.
  * Use object-oriented programming to further a program with a larger goal.
  * Have some fun implementing a game!

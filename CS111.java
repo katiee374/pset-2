@@ -2,10 +2,10 @@
 /**
  * Instructions:
  * First, consider the different ways we could keep a collection of students.
- * Initialize five Student variables as Student1, Student2, etc. What would 
- * you use if you had twenty students? What would you use if you didn't know
- * how many students you would have? How would you initialize the students? 
- * Answer these questions below.
+ * Initialize five Student variables as Student1, Student2, etc. 
+ * What would you use if you had twenty students? What would you use if you 
+ * didn't know how many students you would have? How would you initialize 
+ * the students? 
  * ANSWER HERE:
  * 
  * Give the course an instructor of type Professor, an array of Students, and 
@@ -21,7 +21,7 @@
  * you wrote in the Student class.
  * 
  * Finally, add Javadoc to your methods, a description of the class, and
- * author and version tags. You may delete these instructions if you wish.
+ * author and version tags.
  * 
  * Write a description of class CS111 here.
  *
@@ -30,15 +30,35 @@
  */
 public class CS111
 {
-    // instance variables go here
+    /*
+     * TODO: Add instance variables.
+     */
 
     /**
      * Constructor for objects of class CS111
      */
     public CS111()
     {
-        //fill in arguments & initialize other instance variables
+        /*
+         * TODO: Initialize instance variables.
+         */
     }
-    //getters, setters, getStudentsByYear(int year), getClassAvg() methods here
+    /*
+     * TODO: Add getter, setter, toString methods.
+     */
     
+     /*
+     * TODO: Write getStudentsByYear(int year) method.
+     */
+
+    /*
+     * TODO: Write getClassAvg() method.
+     */
+
+    public static void main(String[] args) {
+        /*
+         * TODO: Initialize five Student objects. Answer the first question
+         * in the instructions.
+         */
+    }
 }

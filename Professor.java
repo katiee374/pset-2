@@ -5,9 +5,10 @@
  * teaching, as well as any instance variables you think are relevant.
  * Create getter and setter methods for these variables.
  * Create a constructor for the class.
+ * Create a toString method.
  * 
  * Finally, add Javadoc to your methods, a description of the class, and
- * author and version tags. You may delete these instructions if you wish.
+ * author and version tags.
  * 
  * Write a description of class Professor here.
  *
@@ -16,15 +17,21 @@
  */
 public class Professor
 {
-    //instance variables go here
+    /*
+     * TODO: Add instance variables.
+     */
 
     /**
      * Constructor for objects of class Professor
      */
     public Professor()
     {
-        //fill in arguments & method body
+        /*
+         * TODO: Fill in constructor & initialize instance variables.
+         */
     }
 
-    //add getter and setter methods
+    /*
+     * TODO: Add getter, setter, and toString methods.
+     */
 }
