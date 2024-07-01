@@ -55,7 +55,9 @@ Next, update the parsing of user commands:
  * Move the ArrayLists of commands and objects to be instance variables of 
    the Game class.
  * Write the processVerb(String verb): check that the verb is a known command. 
-   If not, print "unknown command."
+   If not, print "unknown command." Check if the verb is n/s/e/w. If so, call 
+   moveTo(player, int d). The integer will correspond to the location of n/s/e/w
+   in the ArrayList directions.
 
 Then, create a new file, called AdventureGame, and write a main method there. 
 This is the class that you will run to play the game. For now, write one line of 
