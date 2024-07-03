@@ -1,4 +1,4 @@
-# PSET 2
+# PSET 2: Classes and Objects
 ## Part 1: Modeling Wellesley's CS111 Class
 In the first task of the assignment, you will employ object-oriented 
 programming principles to model a section of CS 111. You will create student 
