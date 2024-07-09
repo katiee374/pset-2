@@ -1,4 +1,3 @@
-
 /**
  * Instructions:
  * Follow the inline instructions to develop an Actor class, which will 

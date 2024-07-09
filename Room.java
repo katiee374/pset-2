@@ -33,6 +33,6 @@ public class Room
     }
     
     /*
-     * TODO: Write getter and setter methods, and add a toString() method.
+     * TODO: Write getter methods, and add a toString() method.
      */
 }
