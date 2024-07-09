@@ -23,7 +23,7 @@ public class Treasure
      */
 
     /*
-     * TODO: Write getter & setter methods.
+     * TODO: Write getter methods. (Think: why not setter methods?)
      */
 
     /*

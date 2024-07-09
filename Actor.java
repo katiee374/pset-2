@@ -26,8 +26,8 @@ public class Actor
          */
     }
     /*
-     * TODO: Write getter and setter methods, and a toString() method that uses 
-     * the name and description.
+     * TODO: Write getter and setter methods for the location, and a 
+     * toString() method that uses the name and description.
      */
 
 }

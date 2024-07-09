@@ -33,6 +33,7 @@ public class Room
     }
     
     /*
-     * TODO: Write getter methods, and add a toString() method.
+     * TODO: Write getter methods for the exits and add a toString() method.
+     * (Think: why not setter methods?)
      */
 }
