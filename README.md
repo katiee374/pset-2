@@ -21,7 +21,7 @@ It is recommended that you move through the assignment in the following order:
 In this task, you will start developing your game using an object-oriented 
 approach. First, create the Room, Actor, Food, Key, and Animal classes according
 to the following specifications:
-#### Room: A class to represent any location in your game.
+Room: A class to represent any location in your game.
  * A name and description.
  * Four integer fields: n, s, e, and w, to represent the exits.
  * The void enter() method, which should print the name and description of the 
@@ -30,7 +30,7 @@ to the following specifications:
    go that way.
  * Getter methods for the exits. Think: why not setter methods?
  * A constructor
-#### Actor: A class to represent the player.
+Actor: A class to represent the player.
  * A name, description, and location (of type Room).
  * An ArrayList<Room> called blueprint (representing the map of the game).
  * Getter methods, including a method that calls the enter() method of the location.
@@ -39,9 +39,19 @@ to the following specifications:
  * A field that represents health. This could be an integer or another type. You 
    can devise your own system for tracking the player's heatlh.
  * A constructor
-#### Food: A class to represent an object that adds health.
-#### Key: A class to represent an object that unlocks a room or treasure chest.
-#### Animal: A class to represent an object that can attack the player.
+Food: A class to represent an object that adds health.
+ * A name and description.
+ * An field that represents how much health a player gets from consuming the item.
+ * A boolean representing whether the item has been used (consumable)
+ * Getter and setter methods for the boolean field, getter methods for the other
+   variables
+Key: A class to represent an object that unlocks a room or treasure chest.
+ * A name, description, getter methods for those.
+ * A field with the name of the thing it unlocks & a getter method for that.
+Animal: A class to represent an object that can attack the player.
+ * A name and description
+ * A field that represents how much health a player loses from being attacked.
+ * Getter methods.
 
 Next, you should consider your Game file to be now a class declaration. Remove 
 the word static from you method headers. Turn the "main" method into the Game 
